@@ -15,7 +15,7 @@ output:
 ## Creating Dummy Text
 
 First, I created some dummy text via
-```{r, message=FALSE, eval=FALSE, tidy=TRUE, highlight=TRUE}
+```{r, message=FALSE, eval=TRUE, tidy=TRUE, highlight=TRUE}
 library(tidyverse)
 library(stringi)
 set.seed(123)

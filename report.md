@@ -23,6 +23,10 @@ set.seed(123)
 stri_rand_lipsum(1)
 ```
 
+```
+## [1] "Lorem ipsum dolor sit amet, sollicitudin duis maecenas habitasse ultrices aenean tempus. Volutpat id, non natoque ad, commodo suscipit sed risus, facilisis mauris aliquam, a. Non leo leo, sapien non eu a quam. Nunc vivamus in, purus ultricies ac suspendisse at. Eu quisque fames sapien consequat et nisl nunc, viverra est mattis mattis posuere. Purus quisque auctor aenean sed risus mauris ante nisi. Ligula ac vitae lacinia. Magna aliquet et mi cubilia per. Hendrerit amet eu ullamcorper turpis ultrices aliquam."
+```
+
 
 ## Dealing With Formatting
 
