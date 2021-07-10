@@ -3,9 +3,9 @@ title: "Fake Analysis Report"
 author: Ali Ben Gator
 date: "2021-06-17"
 output:
-  md_document:
-    toc: true
+  prettydoc::html_pretty:
     theme: architect
+    toc: true
   html_document:
     toc: true
   pdf_document: default
