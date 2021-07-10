@@ -68,7 +68,7 @@ ggplot2::mpg[1:10, 1:5] %>%
 
 Finally, I created this helpful plot.
 
-```{r, eval=TRUE, echo=F}
+```{r plot, eval=TRUE}
 nycflights13::flights %>% 
   na.omit() %>% 
   filter(dep_delay > 0) %>% 
