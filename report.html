@@ -420,6 +420,7 @@ a4 quattro
 <pre class="r"><code>nycflights13::flights %&gt;% 
   na.omit() %&gt;% 
   filter(dep_delay &gt; 0) %&gt;% 
+  knitr::kable() %&gt;%
   ggplot(aes(x = dep_delay)) +
   geom_histogram() + 
   scale_x_log10()</code></pre>
