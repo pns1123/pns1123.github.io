@@ -3,10 +3,10 @@ title: "Fake Analysis Report"
 author: Ali Ben Gator
 date: "2021-06-17"
 output:
-  prettydoc::html_pretty:
-    theme: architect
+  md_document:
     toc: true
-  html_document: 
+    theme: architect
+  html_document:
     toc: true
   pdf_document: default
 ---
@@ -58,18 +58,6 @@ Also, one can transform the text into lists sentence by sentence
 # Tables
 
 The first 10 rows and first 5 columns of `ggplot2::mpg` are displayed in this fancy table:
-
-
-```
-## 
-## Attaching package: 'kableExtra'
-```
-
-```
-## The following object is masked from 'package:dplyr':
-## 
-##     group_rows
-```
 
 <table class=" lightable-classic" style='font-family: "Arial Narrow", "Source Sans Pro", sans-serif; width: auto !important; margin-left: auto; margin-right: auto;'>
  <thead>
