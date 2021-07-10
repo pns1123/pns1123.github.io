@@ -72,6 +72,7 @@ Finally, I created this helpful plot.
 nycflights13::flights %>% 
   na.omit() %>% 
   filter(dep_delay > 0) %>% 
+  knitr::kable() %>%
   ggplot(aes(x = dep_delay)) +
   geom_histogram() + 
   scale_x_log10()
