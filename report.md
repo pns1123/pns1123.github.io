@@ -57,12 +57,99 @@ The first 10 rows and first 5 columns of `ggplot2::mpg` are displayed in this fa
 
 
 ```
-## Error in library(kableExtra): there is no package called 'kableExtra'
+## 
+## Attaching package: 'kableExtra'
 ```
 
 ```
-## Error in ggplot2::mpg[1:10, 1:5] %>% knitr::kable() %>% kable_classic(full_width = F) %>% : could not find function "%>%"
+## The following object is masked from 'package:dplyr':
+## 
+##     group_rows
 ```
+
+<table class=" lightable-classic" style='font-family: "Arial Narrow", "Source Sans Pro", sans-serif; width: auto !important; margin-left: auto; margin-right: auto;'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> manufacturer </th>
+   <th style="text-align:left;"> model </th>
+   <th style="text-align:right;"> displ </th>
+   <th style="text-align:right;"> year </th>
+   <th style="text-align:right;"> cyl </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> audi </td>
+   <td style="text-align:left;"> a4 </td>
+   <td style="text-align:right;font-weight: bold;background-color: rgba(68, 1, 84, 0.5) !important;"> 1.8 </td>
+   <td style="text-align:right;"> 1999 </td>
+   <td style="text-align:right;"> 4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> audi </td>
+   <td style="text-align:left;"> a4 </td>
+   <td style="text-align:right;font-weight: bold;background-color: rgba(68, 1, 84, 0.5) !important;"> 1.8 </td>
+   <td style="text-align:right;"> 1999 </td>
+   <td style="text-align:right;"> 4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> audi </td>
+   <td style="text-align:left;"> a4 </td>
+   <td style="text-align:right;font-weight: bold;background-color: rgba(69, 53, 129, 0.5) !important;"> 2.0 </td>
+   <td style="text-align:right;"> 2008 </td>
+   <td style="text-align:right;"> 4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> audi </td>
+   <td style="text-align:left;"> a4 </td>
+   <td style="text-align:right;font-weight: bold;background-color: rgba(69, 53, 129, 0.5) !important;"> 2.0 </td>
+   <td style="text-align:right;"> 2008 </td>
+   <td style="text-align:right;"> 4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;"> audi </td>
+   <td style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;"> a4 </td>
+   <td style="text-align:right;font-weight: bold;background-color: rgba(103, 204, 92, 0.5) !important;font-weight: bold;color: white !important;background-color: black !important;"> 2.8 </td>
+   <td style="text-align:right;font-weight: bold;color: white !important;background-color: black !important;"> 1999 </td>
+   <td style="text-align:right;font-weight: bold;color: white !important;background-color: black !important;"> 6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> audi </td>
+   <td style="text-align:left;"> a4 </td>
+   <td style="text-align:right;font-weight: bold;background-color: rgba(103, 204, 92, 0.5) !important;"> 2.8 </td>
+   <td style="text-align:right;"> 1999 </td>
+   <td style="text-align:right;"> 6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> audi </td>
+   <td style="text-align:left;"> a4 </td>
+   <td style="text-align:right;font-weight: bold;background-color: rgba(253, 231, 37, 0.5) !important;"> 3.1 </td>
+   <td style="text-align:right;"> 2008 </td>
+   <td style="text-align:right;"> 6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> audi </td>
+   <td style="text-align:left;"> a4 quattro </td>
+   <td style="text-align:right;font-weight: bold;background-color: rgba(68, 1, 84, 0.5) !important;"> 1.8 </td>
+   <td style="text-align:right;"> 1999 </td>
+   <td style="text-align:right;"> 4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> audi </td>
+   <td style="text-align:left;"> a4 quattro </td>
+   <td style="text-align:right;font-weight: bold;background-color: rgba(68, 1, 84, 0.5) !important;"> 1.8 </td>
+   <td style="text-align:right;"> 1999 </td>
+   <td style="text-align:right;"> 4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> audi </td>
+   <td style="text-align:left;"> a4 quattro </td>
+   <td style="text-align:right;font-weight: bold;background-color: rgba(69, 53, 129, 0.5) !important;"> 2.0 </td>
+   <td style="text-align:right;"> 2008 </td>
+   <td style="text-align:right;"> 4 </td>
+  </tr>
+</tbody>
+</table>
 
 
 # Plots
