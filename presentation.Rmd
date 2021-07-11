@@ -1,0 +1,60 @@
+---
+title: "The Cauchy Distribution"
+subtitle: "Weird But Fascinating"
+output:
+ xaringan::moon_reader:
+   lib_dir: libs
+   nature:
+     highlightStyle: github
+     highlightLines: true
+     countIncrementalSlides: false
+---
+ 
+```{r, echo = F, message = F, warning = F, fig.align='center'}
+library(tidyverse)
+knitr::opts_chunk$set(fig.width = 10, fig.height = 7, fig.align = 'center')
+```
+ 
+# Facts About the Cauchy Distribution
+
+* The Cauchy distribution does not have any moments
+
+--
+
+* $X,Y \sim N(0,1) \Rightarrow \frac{X}{Y} \sim Cauchy(0,1)$  
+
+--
+
+* The Cauchy distribution is a special case of the Student-t disbtribution 
+
+--
+
+* The Cauchy distribution is stable, that is a linear combination of Cauchy
+  random variables has Cauchy distrbution
+
+--
+
+---
+
+# A Histogram of 1000 Cauchy(0,1) Realizations
+ 
+```{r, echo=F}
+set.seed(2702)
+nof_samples = 1000
+cauchy_sample = rcauchy(1000)
+cauchy_tib = tibble(cauchy = cauchy_sample)
+
+ggplot(cauchy_tib) +
+    geom_histogram(aes(x = cauchy), binwidth = 1)
+```
+ 
+---
+
+# Extreme Values in Our Sample
+
+```{r, highlight.output=c(1, 5)}
+cauchy_tib %>%
+    top_n(5, wt = abs(cauchy))
+```
+
+---
