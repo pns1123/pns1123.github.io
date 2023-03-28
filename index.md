@@ -7,7 +7,7 @@ Hi, my name is Philipp and I am a PhD student at Ulm University in Germany. Prev
 
 
 ### Projects
-I like to explore many different ideas.I have found that prioritizing the publishing of a project creates clarity and directs the focus to the essential. This is why I believe that it is crucial to [ship it!](https://changelog.com/shipit). Here you will find my shipped ideas.
+To me it is better to try many small projects than few big ones. I have found that prioritizing the publishing of a project creates clarity and directs the focus to the essential. This is why I believe that it is crucial to [ship it!](https://changelog.com/shipit). Here you will find my shipped ideas.
 
 
 ### Notes (Not a Blog!)
